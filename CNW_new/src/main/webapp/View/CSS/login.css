@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+/* Đặt màu nền cho trang */
+body {
+	background-color: #f5f5f5;
+}
+
+/* Định dạng phần wrapper */
+.wrapper {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+/* Định dạng phần formContent */
+#formContent {
+	background-color: #fff;
+	padding: 80px;
+	text-align: center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Định dạng phần fadeIn */
+.fadeIn {
+	animation: fadeIn 1s;
+}
+
+/* Hiệu ứng fadeIn */
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+/* Định dạng phần fadeIn.first */
+.fadeIn.first {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+/* Định dạng phần input */
+input[type="text"],
+input[type="password"] {
+	width: 30%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+	outline: none;
+}
+
+/* Định dạng phần input[type="submit"] */
+input[type="submit"],
+#register {
+	width: 30%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+/* Định dạng phần input[type="submit"]:hover */
+input[type="submit"]:hover,
+#register:hover {
+	background-color: #45a049;
+}
+
+/* Định dạng phần underlineHover */
+.underlineHover {
+	color: #666;
+}
+
+/* Định dạng phần underlineHover:hover */
+.underlineHover:hover {
+	text-decoration: underline;
+}
