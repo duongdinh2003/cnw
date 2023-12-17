@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* styles.css */
+
+/* Reset CSS */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f1f1f1;
+}
+
+.page-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.wrapper {
+	background-color: #ffffff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+	margin-bottom: 20px;
+}
+
+.title {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 15px;
+}
+
+.col-2 {
+	width: 50%;
+	padding: 0 15px;
+}
+
+.label {
+	font-weight: bold;
+}
+
+.input-group {
+	margin-bottom: 15px;
+}
+
+.input--style-4 {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	transition: border-color 0.3s ease;
+}
+
+.input--style-4:focus {
+	border-color: #9b59b6;
+}
+
+.btn {
+	padding: 10px 25px;
+	margin-left: 15px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	width: 100%;
+}
+
+.btn--blue {
+	background-color: #45a049;
+}
+
+.btn--blue:hover {
+	background-color: #2980b9;
+}
